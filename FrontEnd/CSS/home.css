@@ -4,17 +4,21 @@
         'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.sessaProdutosPopulares {
+.sessaProdutosPopulares,
+.sessaoStatus,
+.sessaoServicos {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
 }
 
-.sessaProdutosPopulares .titulo {
+.sessaProdutosPopulares .titulo,
+.sessaoStatus .titulo
+.sessaoServicos .titulo {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -22,24 +26,31 @@
     text-align: center;
 }
 
-.sessaProdutosPopulares .titulo h1 {
+.sessaProdutosPopulares .titulo h1,
+.sessaoStatus .titulo h1,
+.sessaoServicos .titulo h1 {
     color: var(--titulos-section);
     font-family: var(--font-titulos-sections);
 }
 
-.sessaProdutosPopulares .linha {
+.sessaProdutosPopulares .linha,
+.sessaoStatus .linha,
+.sessaoServicos .linha {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sessaProdutosPopulares .linha hr {
+.sessaProdutosPopulares .linha hr,
+.sessaoStatus .linha hr,
+.sessaoServicos .linha hr{
     width: 15%;
     border: 1px solid var(--titulos-section);
 }
 
-.sessaProdutosPopulares .containerProdutos {
+.sessaProdutosPopulares .containerProdutos,
+.sessaoServicos .containerProdutos {
     width: 90%;
     height: auto;
     display: grid;
@@ -47,6 +58,8 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
 }
+
+
 /* sessão status do site */
 .divDecorativa{
     width: 100%;
@@ -62,28 +75,6 @@
     position: absolute;
     z-index: 1;
     border: solid 70px rgb(0, 0, 0);
-}
-
-.sessaoStatus {
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
-.sessaoStatus .titulo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sessaoStatus .titulo h1 {
-    color: var(--titulos-section);
-    font-family: var(--font-titulos-sections);
 }
 
 .cardsStatus{
