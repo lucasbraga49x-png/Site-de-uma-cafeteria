@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --fundo-header: #121619;
+    --cor-botao: #B79775;
+    --hover-botao: #9a8064;
+    --cor-links: #f4f1f1;
+    --cor-body: #FFFFFF;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 999999;
+    height: 80px;
+    background-color: var(--fundo-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 15%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .logo img{
+    width: 80px;
+    height: auto;
+}
+
+header .navegacao{
+    width: 65%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .navegacao .links{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .navegacao .links ul{
+    list-style: none;
+    display: flex;
+    gap: 35px;        
+}
+
+header .navegacao .links a{
+    color: var(--cor-links);
+    font-size: large;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+header .navegacao .botao{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .navegacao .botao button{
+    width: 65%;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--cor-botao);
+    color: var(--cor-links);
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+header .navegacao .botao button:hover{
+    transform: translateY(-2px);
+    background-color: var(--hover-botao);
+}
+
+header .navegacao .links a:hover{
+    color: var(--cor-botao);
+    border-bottom: solid 2px var(--cor-botao);
+}

@@ -1,0 +1,99 @@
+:root {
+    --titulos-section: #a4896c;
+    --font-titulos-sections: 'Trebuchet MS', 'Lucida Sans Unicode',
+        'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sessaProdutosPopulares {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.sessaProdutosPopulares .titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sessaProdutosPopulares .titulo h1 {
+    color: var(--titulos-section);
+    font-family: var(--font-titulos-sections);
+}
+
+.sessaProdutosPopulares .linha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessaProdutosPopulares .linha hr {
+    width: 15%;
+    border: 1px solid var(--titulos-section);
+}
+
+.sessaProdutosPopulares .containerProdutos {
+    width: 90%;
+    height: auto;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+/* sessão status do site */
+.divDecorativa{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.divDecorativa hr{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    border: solid 70px rgb(0, 0, 0);
+}
+
+.sessaoStatus {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.sessaoStatus .titulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessaoStatus .titulo h1 {
+    color: var(--titulos-section);
+    font-family: var(--font-titulos-sections);
+}
+
+.cardsStatus{
+    width: 90%;
+    height: auto;
+    gap: 30px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}

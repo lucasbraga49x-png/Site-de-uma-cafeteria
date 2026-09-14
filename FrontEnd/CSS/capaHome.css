@@ -1,0 +1,98 @@
+:root {
+    --cor-texto: #d6d6d6;
+}
+
+.capaHome {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 700px;
+}
+
+.capaHome img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.divEscura {
+    background-color: rgba(0, 0, 0, 0.579);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divEscura .informacoes {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.divEscura .informacoes .titulo,
+.divEscura .informacoes .descricao {
+    display: flex;
+    width: 100%;
+    text-align: left;
+}
+
+.divEscura .informacoes .titulo h1 {
+    color: var(--cor-links);
+    font-size: 40px;
+}
+
+.divEscura .informacoes .descricao p {
+    color: var(--cor-texto);
+    font-size: 17px;
+}
+
+.divEscura .informacoes .botoes {
+    width: 100%;
+    height: auto;
+}
+
+.divEscura .informacoes .botoes button {
+    width: 20%;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--cor-botao);
+    color: var(--cor-links);
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.divEscura .informacoes .botoes button:hover{
+    transform: translateY(-2px);
+    background-color: var(--hover-botao);
+}
+
+/* Sessão de produtos mais vendidos */
+
+
+
+.divInformacoesProduto {
+    background-color: #B79775;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
