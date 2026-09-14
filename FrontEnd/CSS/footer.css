@@ -1,0 +1,79 @@
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    background-color: var(--fundo-header);
+    gap: 30px;
+    padding: 20px;
+}
+
+footer .containerFooter{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 200px;
+}
+
+footer .containerFooter .footerInformacoes{
+ width: 30%;
+ height: 150px;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+footer .containerFooter .footerInformacoes h2{
+    color: var(--cor-texto);
+    font-size: 22px;
+}
+
+footer .containerFooter .footerInformacoes p,
+footer .containerFooter .footerInformacoes .linksFooter a,
+footer .footerDireitosAutorais p{
+   color: var(--cor-texto);
+   font-size: 15px;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+footer .containerFooter .footerInformacoes .linksFooter a:hover{
+  color: var(--hover-botao);
+}
+
+
+footer .containerFooter .footerInformacoes .linksFooter ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .containerFooter .footerInformacoes p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+footer .containerFooter .footerInformacoes p img{
+    width: 25px;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+footer .footerDireitosAutorais{
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+footer .footerDireitosAutorais hr{
+    width: 90%;
+    border: solid 1px #ffffff1f;
+}
