@@ -3,15 +3,15 @@ const header = document.querySelector('header')
 function GerarMenu() {
     header.innerHTML = `
     <div class="logo">
-            <img src="../imagens/logo.png" alt="logo">
+            <img src="FrontEnd/imagens/logo.png" alt="logo">
         </div>
         <div class="navegacao">
             <div class="links">
                 <ul>
-                    <li><a href="/Site-de-uma-cafeteria/index.html">Início</a></li>
-                    <li><a href="../HTML/cardapio.html">Cardápio</a></li>
-                    <li><a href="../HTML/opiniao.html">Opiniões</a></li>
-                    <li><a href="../HTML/saibaMais.html">Saiba mais</a></li>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="FrontEnd/HTML/cardapio.html">Cardápio</a></li>
+                    <li><a href="FrontEnd/HTML/opiniao.html">Opiniões</a></li>
+                    <li><a href="FrontEnd/HTML/saibaMais.html">Saiba mais</a></li>
                 </ul>
             </div>
 
@@ -38,17 +38,17 @@ function gerarFooter() {
 
                 <div class="linksFooter">
                     <ul>
-                    <li><a href="/Site-de-uma-cafeteria/index.html">Início</a></li>
+                    <li><a href="index.html">Início</a></li>
                     <li><a href="FrontEnd/HTML/cardapio.html">Cardápio</a></li>
-                    <li><a href="">Opiniões</a></li>
-                    <li><a href="">Saiba mais</a></li>
+                    <li><a href="FrontEnd/HTML/opiniao.html">Opiniões</a></li>
+                    <li><a href="FrontEnd/HTML/saibaMais.html">Saiba mais</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footerInformacoes">
                 <h2>Nossos Contatos</h2>
-                <p><img src="../imagens/gmail.png" alt="icon">coffeworks@gmail.com</p>
-                <p><img src="../imagens/telefone.png" alt="icon">(+55) 799 81554-6722</p>
+                <p><img src="FrontEnd/imagens/gmail.png" alt="icon">coffeworks@gmail.com</p>
+                <p><img src="FrontEnd/imagens/telefone.png" alt="icon">(+55) 799 81554-6722</p>
             </div>
         </div>
         <div class="footerDireitosAutorais">

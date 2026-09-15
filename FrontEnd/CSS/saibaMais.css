@@ -1,0 +1,35 @@
+.sessaoServicos .titulo {
+    margin-top: 100px;
+}
+
+.historiaCafeteria {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.parteHistoria {
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(24, 23, 23);
+    border: 1px solid var(--borda-historia);
+    border-radius: 15px;
+}
+
+.parteHistoria h2 {
+    margin-bottom: 20px;
+    color: var(--cor-botao);
+    font-size: 25px;
+}
+
+.parteHistoria p {
+    margin-bottom: 15px;
+    color: var(--cor-texto);
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.parteHistoria p:last-child {
+    margin-bottom: 0;
+}

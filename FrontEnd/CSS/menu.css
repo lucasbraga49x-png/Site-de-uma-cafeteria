@@ -33,9 +33,7 @@ main{
 }
 
 header{
-    width: 98%;
-    margin-top: 20px;
-    border-radius: 10px;
+    width: 100%;
     position: fixed;
     z-index: 999999;
     height: 60px;

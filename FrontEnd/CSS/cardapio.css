@@ -1,0 +1,45 @@
+
+.sessaoServicos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sessaoServicos .titulo {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sessaoServicos .titulo h1 {
+    color: var(--titulos-section);
+    font-family: var(--font-titulos-sections);
+}
+
+.sessaoServicos .linha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sessaoServicos .linha hr{
+    width: 15%;
+    border: 1px solid var(--titulos-section);
+}
+
+.sessaoServicos .containerProdutos {
+    width: 90%;
+    height: auto;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}

@@ -7,6 +7,7 @@ footer{
     min-height: 100px;
     background-color: var(--fundo-header);
     gap: 30px;
+    margin-top: auto;
     padding: 20px;
 }
 

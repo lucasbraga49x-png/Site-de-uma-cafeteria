@@ -1,0 +1,162 @@
+:root {
+    --titulo-dialog: #e2e0e0;
+    --fundo-dialog: #0f0f0f;
+    --fundo-input: #1b1b1b;
+}
+
+
+.botao {
+    width: 100%;
+    padding: 10px;
+    min-height: 60px;
+}
+
+.botao button {
+    width: 15%;
+    height: 60px;
+    font-size: large;
+    border-radius: 7px;
+    border: none;
+    background-color: var(--cor-botao);
+    color: var(--cor-texto);
+    transition: 0.4s;
+}
+
+.botao button:hover {
+    background-color: var(--hover-botao);
+    transform: translateY(-2px);
+}
+
+form {
+    width: 30%;
+    padding: 13px;
+    background-color: var(--fundo-dialog);
+    margin-top: auto;
+    display: none;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    gap: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+
+form .titulo {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    height: 10%;
+    align-items: center;
+}
+
+form .titulo h2 {
+    color: var(--titulo-dialog);
+}
+
+form .inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    height: 50%;
+    padding: 10px;
+    flex-direction: column;
+}
+
+form .inputs input {
+    width: 90%;
+    height: 38px;
+    padding: 7px;
+    background-color: var(--fundo-input);
+    border-radius: 7px;
+    border: none;
+
+    outline: none;
+    border: 2px solid rgb(59, 59, 59);
+    color: #c0bcbc;
+    transition: 0.4s;
+}
+
+form .inputs textarea {
+    width: 90%;
+    height: 70px;
+    padding: 7px;
+    background-color: var(--fundo-input);
+    border-radius: 7px;
+    border: none;
+    resize: none;
+    outline: none;
+    border: 2px solid rgb(59, 59, 59);
+    color: #c0bcbc;
+    transition: 0.4s;
+}
+
+form .inputs input:focus,
+form .inputs textarea:focus {
+    box-shadow: 0 0 0 2px #686767;
+}
+
+form .botoes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 5px;
+}
+
+form .botoes button {
+    width: 30%;
+    height: 40px;
+    background-color: var(--cor-botao);
+    border-radius: 7px;
+    border: none;
+    color: var(--cor-texto);
+    transition: 0.4s;
+}
+
+.botoes button:hover {
+    background-color: var(--hover-botao);
+    transform: translateY(-2px);
+}
+
+.containerOpinioes {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cardOpiniao {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 24px;
+    max-width: 500px;
+    width: 100%;
+    border-left: 5px solid #c2ad86;
+}
+
+.nome-usuario {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 8px;
+}
+
+.opiniao-usuario {
+    font-size: 0.95rem;
+    color: #4b5563;
+    line-height: 1.6;
+    font-style: italic;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../CSS/menu.css">
+    <link rel="stylesheet" href="../CSS/home.css">
+    <link rel="stylesheet" href="../CSS/capaHome.css">
+    <link rel="stylesheet" href="../CSS/card.css">
+    <link rel="stylesheet" href="../CSS/opiniao.css">
+    <link rel="stylesheet" href="../CSS/footer.css">
+
+    <script src="../JS/geraMenuGeral.js" defer></script>
+    <script src="../JS/opiniao.js" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="botao" style="margin-top: 100px;">
+            <button id="btnAbrir">Envie sua opinião aqui</button>
+        </div>
+
+            <form autocomplete="off">
+                <div class="titulo">
+                    <h2>Envie sua opinião</h2>
+                </div>
+
+                <div class="inputs">
+                    <input type="text" placeholder="Digite seu nome" id="NomeUser">
+                    <input type="email" placeholder="Digite seu email" id="emailUser">
+                    <textarea id="opiniao" placeholder="Digite sua opinião aqui" maxlength="300"></textarea>
+                </div>
+
+                <div class="botoes">
+                    <button type="button" id="btnEnviar">Enviar</button>
+                    <button type="button" id="btnFechar">Voltar</button>
+                </div>
+            </form>
+
+        <div class="sessaoServicos">
+            <div class="titulo">
+                <h1>Feedbacks de clientes</h1>
+            </div>
+            <div class="linha">
+                <hr>
+            </div>
+            <div class="containerOpinioes">
+                <div class="cardOpiniao">
+                <div class="nome-usuario">
+                    <h2>${nomeValor}</h2>
+                </div>
+                <div class="opiniao-usuario">
+                    <p>${opiniaoValor}</p>
+                </div>
+            </div>
+             <div class="cardOpiniao">
+                <div class="nome-usuario">
+                    <h2>${nomeValor}</h2>
+                </div>
+                <div class="opiniao-usuario">
+                    <p>${opiniaoValor}</p>
+                </div>
+            </div>
+             <div class="cardOpiniao">
+                <div class="nome-usuario">
+                    <h2>${nomeValor}</h2>
+                </div>
+                <div class="opiniao-usuario">
+                    <p>${opiniaoValor}</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
